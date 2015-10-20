@@ -40,7 +40,9 @@ docker run -d -p 80:80 -e WELCOME_MSG="Hello World" robertshand/Java-hello-world
 ```
 curl http://$(docker-machine ip default):80
 ```
+
 Result is
+
 ```
 *** Java - Hello World ! ***
 WELCOME_MSG : Hello World
