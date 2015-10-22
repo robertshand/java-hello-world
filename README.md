@@ -28,12 +28,12 @@ Can be used to create a docker image and run within a container
 
 ### To Build
 ```
-docker build -t robertshand/Java-hello-world .
+docker build -t robertshand/java-hello-world .
 ```
 
 ### To Run
 ```
-docker run -d -p 80:80 -e WELCOME_MSG="Hello World" robertshand/Java-hello-world
+docker run -d -p 80:80 -e WELCOME_MSG="Hello World" robertshand/java-hello-world
 ```
 
 ### To Test
